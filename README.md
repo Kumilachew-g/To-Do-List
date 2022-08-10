@@ -2,7 +2,7 @@
 
 # To Do List
 
-This project is mainly about creating to do list by HTML5,CSS3 and JS.
+This project is built by html5 and css3, Javascript ES6, Webpack use localstorage to store todo lists.
 
 ## Built With
 
@@ -19,9 +19,10 @@ To access a local copy up and runn follow these simple steps.
 
 ### Usage
 
-- clone this repository into your local machine
-- unzip it
-- open the 'index.html' file with your browser
+1. First copy this repo and clone it on your machine using this link.
+2. run 'npm install' to install the dependecies
+3. run 'npm start' to run the project
+4. run 'npm run build' to build the project
 
 ## Authors
 
