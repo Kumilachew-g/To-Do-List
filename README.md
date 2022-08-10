@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Personal-Portfolio
+# To Do List
 
-This project is mainly about creating personal portfolio by HTML5 and CSS3.
+This project is mainly about creating to do list by HTML5,CSS3 and JS.
 
 ## Built With
 
-- Major languages: HTML5,CSS3
+- Major languages: HTML5,CSS3 and JS
 - Technologies used: linters, Lighthouse, Webhint, Stylelint
 
 ## Getting Started
@@ -35,7 +35,7 @@ To access a local copy up and runn follow these simple steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Kumilachew-g/Personal-Portfolio/issues).
+Feel free to check the [issues page](https://github.com/Kumilachew-g/To-Do-List/issues).
 
 ## Show your support
 
