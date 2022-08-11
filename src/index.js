@@ -1,6 +1,6 @@
 import './style.css';
 import { addItem, clearAll, displayList } from './activities.js';
-import ToDo from './mainFunctions.js';
+import ToDo from './constructor.js';
 
 const listItem = JSON.parse(localStorage.getItem('todoList'));
 if (listItem) {
