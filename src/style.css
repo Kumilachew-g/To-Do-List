@@ -35,6 +35,7 @@ li {
 .add-input-list {
   border: 1px solid black;
   font-style: italic;
+  outline: none;
 }
 
 .add-input-list,
