@@ -46,6 +46,7 @@ export const displayList = () => {
       ToDoList.list[index].update();
       descriptionText.classList.toggle('complete');
       textInput.classList.toggle('complete');
+      listItem.classList.toggle('active');
       localStorage.setItem('todoList', JSON.stringify(ToDoList.list));
     });
 

@@ -66,6 +66,10 @@ li {
   display: none;
 }
 
+.active {
+  background-color: #fffed3;
+}
+
 .item-container {
   gap: 6px;
   justify-content: space-between;
