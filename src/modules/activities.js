@@ -1,5 +1,5 @@
-import ToDoList from './mainFunctions.js';
-import TrashButton from './Trash.jpg';
+import ToDoList from './constructor.js';
+import TrashButton from '../Trash.jpg';
 
 export const addItem = (data) => {
   const newListItem = new ToDoList(data);
@@ -46,6 +46,7 @@ export const displayList = () => {
       ToDoList.list[index].update();
       descriptionText.classList.toggle('complete');
       textInput.classList.toggle('complete');
+      listItem.classList.toggle('active');
       localStorage.setItem('todoList', JSON.stringify(ToDoList.list));
     });
 

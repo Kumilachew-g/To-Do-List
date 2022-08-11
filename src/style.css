@@ -29,11 +29,13 @@ li {
   padding: 16px;
   font-size: inherit;
   margin: 0;
+  padding-right: 25px;
 }
 
 .add-input-list {
   border: 1px solid black;
   font-style: italic;
+  outline: none;
 }
 
 .add-input-list,
@@ -62,6 +64,10 @@ li {
 
 .text-area {
   display: none;
+}
+
+.active {
+  background-color: #fffed3;
 }
 
 .item-container {
