@@ -1,5 +1,5 @@
 import ToDoList from './constructor.js';
-import TrashButton from './Trash.jpg';
+import TrashButton from '../Trash.jpg';
 
 export const addItem = (data) => {
   const newListItem = new ToDoList(data);
