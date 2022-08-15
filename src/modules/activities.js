@@ -1,5 +1,4 @@
 import ToDoList from './constructor.js';
-import TrashButton from '../Trash.jpg';
 
 export const addItem = (data) => {
   const newListItem = new ToDoList(data);
@@ -32,7 +31,8 @@ export const displayList = () => {
     <input type="checkbox" class="checkbox">
     <span class ="spn">${item.description}</span>
     <textarea class="text-area" maxlength="25">${item.description}</textarea>
-    <img class="trash-btn" src="${TrashButton}">
+    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+    <i class="fa fa-trash trash-btn" aria-hidden="true"></i>
     `;
 
     todoList.appendChild(listItem);
