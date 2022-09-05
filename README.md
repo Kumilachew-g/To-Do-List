@@ -4,6 +4,8 @@
 
 This project is built by html5 and css3, Javascript ES6, Webpack use localstorage to store todo lists.
 
+# Live Demo
+ [Live Demo](https://kumilachew-g.github.io/To-Do-List/dist)
 ## Built With
 
 - Major languages: HTML5,CSS3 and JS
